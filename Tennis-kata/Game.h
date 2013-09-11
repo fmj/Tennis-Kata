@@ -14,7 +14,7 @@
 @property Player *player1;
 @property Player *player2;
 
-
+-(void)Serve;
 -(id)init;
 
 -(void)Player1Scores;

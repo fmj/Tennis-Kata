@@ -22,6 +22,7 @@
 - (IBAction)Player1Score:(id)sender;
 - (IBAction)Player2Score:(id)sender;
 @property (weak) IBOutlet NSTextField *BestOfTextField;
+- (IBAction)Serve:(id)sender;
 
 -(void)UpdateGUI;
 @end

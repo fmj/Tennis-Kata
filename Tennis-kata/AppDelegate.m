@@ -54,6 +54,11 @@ NSSpeechSynthesizer *synth;
     
     [[NSUserNotificationCenter defaultUserNotificationCenter] deliverNotification:notification];
 }
+- (IBAction)Serve:(id)sender {
+    [game Serve];
+    [self UpdateGUI];
+}
+
 -(void)UpdateGUI
 {
     NSString *notifc = [NSString stringWithFormat:@"%@",game];

@@ -5,7 +5,7 @@
 //  Created by Erik Thue on 9/11/13.
 //  Copyright (c) 2013 Erik Thue. All rights reserved.
 //
-
+#include <stdlib.h>
 #import "Game.h"
 
 @implementation Game
@@ -65,6 +65,19 @@
     }
     return nil;
 }
+
+
+-(void)Serve
+{
+    int player = arc4random_uniform(2)+1;
+    if(player == 1)
+    {
+        [self Player1Scores];
+    }
+    else
+        [self Player2Scores];
+}
+
 
 -(void)Player1Scores
 {
