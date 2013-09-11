@@ -17,6 +17,9 @@
 		E9B266DE17E0C8820018EF55 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9B266BE17E0C8820018EF55 /* Cocoa.framework */; };
 		E9B266E617E0C8820018EF55 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E9B266E417E0C8820018EF55 /* InfoPlist.strings */; };
 		E9B266E917E0C8820018EF55 /* Tennis_kataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B266E817E0C8820018EF55 /* Tennis_kataTests.m */; };
+		E9B266F417E0C8C60018EF55 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B266F317E0C8C60018EF55 /* Player.m */; };
+		E9B266F717E0CC9D0018EF55 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B266F617E0CC9D0018EF55 /* Game.m */; };
+		E9B266FA17E0CED10018EF55 /* Score.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B266F917E0CED10018EF55 /* Score.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,12 @@
 		E9B266E517E0C8820018EF55 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E9B266E717E0C8820018EF55 /* Tennis_kataTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tennis_kataTests.h; sourceTree = "<group>"; };
 		E9B266E817E0C8820018EF55 /* Tennis_kataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tennis_kataTests.m; sourceTree = "<group>"; };
+		E9B266F217E0C8C60018EF55 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		E9B266F317E0C8C60018EF55 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		E9B266F517E0CC9D0018EF55 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		E9B266F617E0CC9D0018EF55 /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
+		E9B266F817E0CED10018EF55 /* Score.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Score.h; sourceTree = "<group>"; };
+		E9B266F917E0CED10018EF55 /* Score.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Score.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +127,12 @@
 				E9B266D117E0C8820018EF55 /* AppDelegate.m */,
 				E9B266D317E0C8820018EF55 /* MainMenu.xib */,
 				E9B266C517E0C8820018EF55 /* Supporting Files */,
+				E9B266F217E0C8C60018EF55 /* Player.h */,
+				E9B266F317E0C8C60018EF55 /* Player.m */,
+				E9B266F517E0CC9D0018EF55 /* Game.h */,
+				E9B266F617E0CC9D0018EF55 /* Game.m */,
+				E9B266F817E0CED10018EF55 /* Score.h */,
+				E9B266F917E0CED10018EF55 /* Score.m */,
 			);
 			path = "Tennis-kata";
 			sourceTree = "<group>";
@@ -263,6 +278,9 @@
 			files = (
 				E9B266CB17E0C8820018EF55 /* main.m in Sources */,
 				E9B266D217E0C8820018EF55 /* AppDelegate.m in Sources */,
+				E9B266F417E0C8C60018EF55 /* Player.m in Sources */,
+				E9B266F717E0CC9D0018EF55 /* Game.m in Sources */,
+				E9B266FA17E0CED10018EF55 /* Score.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,6 +470,7 @@
 				E9B266EE17E0C8820018EF55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E9B266EF17E0C8820018EF55 /* Build configuration list for PBXNativeTarget "Tennis-kataTests" */ = {
 			isa = XCConfigurationList;
@@ -460,6 +479,7 @@
 				E9B266F117E0C8820018EF55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
