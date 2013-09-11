@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E9B266BF17E0C8820018EF55 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9B266BE17E0C8820018EF55 /* Cocoa.framework */; };
+		E9B266C917E0C8820018EF55 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E9B266C717E0C8820018EF55 /* InfoPlist.strings */; };
+		E9B266CB17E0C8820018EF55 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B266CA17E0C8820018EF55 /* main.m */; };
+		E9B266CF17E0C8820018EF55 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = E9B266CD17E0C8820018EF55 /* Credits.rtf */; };
+		E9B266D217E0C8820018EF55 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B266D117E0C8820018EF55 /* AppDelegate.m */; };
+		E9B266D517E0C8820018EF55 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9B266D317E0C8820018EF55 /* MainMenu.xib */; };
+		E9B266DD17E0C8820018EF55 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9B266DC17E0C8820018EF55 /* SenTestingKit.framework */; };
+		E9B266DE17E0C8820018EF55 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9B266BE17E0C8820018EF55 /* Cocoa.framework */; };
+		E9B266E617E0C8820018EF55 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E9B266E417E0C8820018EF55 /* InfoPlist.strings */; };
+		E9B266E917E0C8820018EF55 /* Tennis_kataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B266E817E0C8820018EF55 /* Tennis_kataTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E9B266DF17E0C8820018EF55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9B266B317E0C8820018EF55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9B266BA17E0C8820018EF55;
+			remoteInfo = "Tennis-kata";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E9B266BB17E0C8820018EF55 /* Tennis-kata.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tennis-kata.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9B266BE17E0C8820018EF55 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		E9B266C117E0C8820018EF55 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		E9B266C217E0C8820018EF55 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E9B266C317E0C8820018EF55 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E9B266C617E0C8820018EF55 /* Tennis-kata-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tennis-kata-Info.plist"; sourceTree = "<group>"; };
+		E9B266C817E0C8820018EF55 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E9B266CA17E0C8820018EF55 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E9B266CC17E0C8820018EF55 /* Tennis-kata-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tennis-kata-Prefix.pch"; sourceTree = "<group>"; };
+		E9B266CE17E0C8820018EF55 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		E9B266D017E0C8820018EF55 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E9B266D117E0C8820018EF55 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E9B266D417E0C8820018EF55 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		E9B266DB17E0C8820018EF55 /* Tennis-kataTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tennis-kataTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9B266DC17E0C8820018EF55 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		E9B266E317E0C8820018EF55 /* Tennis-kataTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tennis-kataTests-Info.plist"; sourceTree = "<group>"; };
+		E9B266E517E0C8820018EF55 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E9B266E717E0C8820018EF55 /* Tennis_kataTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tennis_kataTests.h; sourceTree = "<group>"; };
+		E9B266E817E0C8820018EF55 /* Tennis_kataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tennis_kataTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9B266B817E0C8820018EF55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9B266BF17E0C8820018EF55 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9B266D717E0C8820018EF55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9B266DD17E0C8820018EF55 /* SenTestingKit.framework in Frameworks */,
+				E9B266DE17E0C8820018EF55 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E9B266B217E0C8820018EF55 = {
+			isa = PBXGroup;
+			children = (
+				E9B266C417E0C8820018EF55 /* Tennis-kata */,
+				E9B266E117E0C8820018EF55 /* Tennis-kataTests */,
+				E9B266BD17E0C8820018EF55 /* Frameworks */,
+				E9B266BC17E0C8820018EF55 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E9B266BC17E0C8820018EF55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9B266BB17E0C8820018EF55 /* Tennis-kata.app */,
+				E9B266DB17E0C8820018EF55 /* Tennis-kataTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9B266BD17E0C8820018EF55 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9B266BE17E0C8820018EF55 /* Cocoa.framework */,
+				E9B266DC17E0C8820018EF55 /* SenTestingKit.framework */,
+				E9B266C017E0C8820018EF55 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E9B266C017E0C8820018EF55 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9B266C117E0C8820018EF55 /* AppKit.framework */,
+				E9B266C217E0C8820018EF55 /* CoreData.framework */,
+				E9B266C317E0C8820018EF55 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		E9B266C417E0C8820018EF55 /* Tennis-kata */ = {
+			isa = PBXGroup;
+			children = (
+				E9B266D017E0C8820018EF55 /* AppDelegate.h */,
+				E9B266D117E0C8820018EF55 /* AppDelegate.m */,
+				E9B266D317E0C8820018EF55 /* MainMenu.xib */,
+				E9B266C517E0C8820018EF55 /* Supporting Files */,
+			);
+			path = "Tennis-kata";
+			sourceTree = "<group>";
+		};
+		E9B266C517E0C8820018EF55 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E9B266C617E0C8820018EF55 /* Tennis-kata-Info.plist */,
+				E9B266C717E0C8820018EF55 /* InfoPlist.strings */,
+				E9B266CA17E0C8820018EF55 /* main.m */,
+				E9B266CC17E0C8820018EF55 /* Tennis-kata-Prefix.pch */,
+				E9B266CD17E0C8820018EF55 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E9B266E117E0C8820018EF55 /* Tennis-kataTests */ = {
+			isa = PBXGroup;
+			children = (
+				E9B266E717E0C8820018EF55 /* Tennis_kataTests.h */,
+				E9B266E817E0C8820018EF55 /* Tennis_kataTests.m */,
+				E9B266E217E0C8820018EF55 /* Supporting Files */,
+			);
+			path = "Tennis-kataTests";
+			sourceTree = "<group>";
+		};
+		E9B266E217E0C8820018EF55 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E9B266E317E0C8820018EF55 /* Tennis-kataTests-Info.plist */,
+				E9B266E417E0C8820018EF55 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9B266BA17E0C8820018EF55 /* Tennis-kata */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9B266EC17E0C8820018EF55 /* Build configuration list for PBXNativeTarget "Tennis-kata" */;
+			buildPhases = (
+				E9B266B717E0C8820018EF55 /* Sources */,
+				E9B266B817E0C8820018EF55 /* Frameworks */,
+				E9B266B917E0C8820018EF55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tennis-kata";
+			productName = "Tennis-kata";
+			productReference = E9B266BB17E0C8820018EF55 /* Tennis-kata.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E9B266DA17E0C8820018EF55 /* Tennis-kataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9B266EF17E0C8820018EF55 /* Build configuration list for PBXNativeTarget "Tennis-kataTests" */;
+			buildPhases = (
+				E9B266D617E0C8820018EF55 /* Sources */,
+				E9B266D717E0C8820018EF55 /* Frameworks */,
+				E9B266D817E0C8820018EF55 /* Resources */,
+				E9B266D917E0C8820018EF55 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9B266E017E0C8820018EF55 /* PBXTargetDependency */,
+			);
+			name = "Tennis-kataTests";
+			productName = "Tennis-kataTests";
+			productReference = E9B266DB17E0C8820018EF55 /* Tennis-kataTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9B266B317E0C8820018EF55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Erik Thue";
+			};
+			buildConfigurationList = E9B266B617E0C8820018EF55 /* Build configuration list for PBXProject "Tennis-kata" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E9B266B217E0C8820018EF55;
+			productRefGroup = E9B266BC17E0C8820018EF55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9B266BA17E0C8820018EF55 /* Tennis-kata */,
+				E9B266DA17E0C8820018EF55 /* Tennis-kataTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9B266B917E0C8820018EF55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9B266C917E0C8820018EF55 /* InfoPlist.strings in Resources */,
+				E9B266CF17E0C8820018EF55 /* Credits.rtf in Resources */,
+				E9B266D517E0C8820018EF55 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9B266D817E0C8820018EF55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9B266E617E0C8820018EF55 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E9B266D917E0C8820018EF55 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9B266B717E0C8820018EF55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9B266CB17E0C8820018EF55 /* main.m in Sources */,
+				E9B266D217E0C8820018EF55 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9B266D617E0C8820018EF55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9B266E917E0C8820018EF55 /* Tennis_kataTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E9B266E017E0C8820018EF55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9B266BA17E0C8820018EF55 /* Tennis-kata */;
+			targetProxy = E9B266DF17E0C8820018EF55 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E9B266C717E0C8820018EF55 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9B266C817E0C8820018EF55 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E9B266CD17E0C8820018EF55 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9B266CE17E0C8820018EF55 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		E9B266D317E0C8820018EF55 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9B266D417E0C8820018EF55 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		E9B266E417E0C8820018EF55 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9B266E517E0C8820018EF55 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E9B266EA17E0C8820018EF55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E9B266EB17E0C8820018EF55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E9B266ED17E0C8820018EF55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tennis-kata/Tennis-kata-Prefix.pch";
+				INFOPLIST_FILE = "Tennis-kata/Tennis-kata-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E9B266EE17E0C8820018EF55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tennis-kata/Tennis-kata-Prefix.pch";
+				INFOPLIST_FILE = "Tennis-kata/Tennis-kata-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E9B266F017E0C8820018EF55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Tennis-kata.app/Contents/MacOS/Tennis-kata";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tennis-kata/Tennis-kata-Prefix.pch";
+				INFOPLIST_FILE = "Tennis-kataTests/Tennis-kataTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		E9B266F117E0C8820018EF55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Tennis-kata.app/Contents/MacOS/Tennis-kata";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tennis-kata/Tennis-kata-Prefix.pch";
+				INFOPLIST_FILE = "Tennis-kataTests/Tennis-kataTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9B266B617E0C8820018EF55 /* Build configuration list for PBXProject "Tennis-kata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9B266EA17E0C8820018EF55 /* Debug */,
+				E9B266EB17E0C8820018EF55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9B266EC17E0C8820018EF55 /* Build configuration list for PBXNativeTarget "Tennis-kata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9B266ED17E0C8820018EF55 /* Debug */,
+				E9B266EE17E0C8820018EF55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E9B266EF17E0C8820018EF55 /* Build configuration list for PBXNativeTarget "Tennis-kataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9B266F017E0C8820018EF55 /* Debug */,
+				E9B266F117E0C8820018EF55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9B266B317E0C8820018EF55 /* Project object */;
+}
